@@ -1,0 +1,159 @@
+body {
+    padding-top: 0%;
+    background-color: rgb(45, 45, 45);
+}
+
+.image_class {
+    display:inline;
+    width:inherit;  /*Na wat  uittesten kwam ik hier opuit.*/
+}
+
+
+button {
+    font-size: 1.5em;
+    width: 100%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 1%;
+    align-content: center;
+    background-color: grey;
+    color: black;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    border-color: black;
+    border-width: .25vw;
+    border-style: solid;
+    align-self: baseline;
+    transition: all .3s;   
+
+}
+
+button:hover {
+    transform: scaleX(.98);
+    filter: brightness(.8);
+
+    cursor: pointer;
+}
+button:active {
+    transform: scaleX(.95);
+}
+
+#questionsection  {
+    margin: auto;
+    width: 75%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(19, 110, 206);
+    border-radius: 2vw;
+    border-width: .25vw;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    display: none;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#InputQuizCode {
+    margin: auto;
+    width: 75%;
+    background-color: rgb(181, 206, 19);
+    border-radius: 2vw;
+    border-width: .25vw;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    height:32%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#InputQuizCode h2 {
+    position:absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+}
+
+#EnterCode {
+    position: absolute;
+    width: 20%;
+    top: 60%;
+    left: 40%;
+
+} 
+
+
+#inputIputQuizCode {
+    font-size: 1.5em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#correctorincorrect {
+    width: 70%;
+    height: 70%; 
+    display: none;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+    margin-bottom: 1%;
+    background-color: rgb(25, 206, 19);
+    border-radius: 2vw;
+    border-width: .25vw;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+
+#correctorincorrect p {
+    font-size:4em;
+    margin: auto;
+    margin-bottom: 1%;
+    text-align: center;
+}
+#correctorincorrect button {
+    width: 50%;
+    height: auto;
+
+    bottom: 0%;
+    /*make the margin of top and bottom 2% and the rest auto*/
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+    padding: auto;
+    font-size: 3em;
+}
+
+
+p {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

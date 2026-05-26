@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Katoet | Maak je eigen schoolquizzen</title><link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <script src="makeQuiz.js" defer></script>
+    </head>
+<body>
+<header class="main-header">
+    <div class="container">
+        <h1>Katoet</h1>
+        <nav class="main-nav">
+            <a href="idk">Home</a>
+            <a href= "spelen.html">Quiz spelen</a>
+
+            <a href="maken.html" class="cta-button">Quiz Maken</a>
+        </nav>
+    </div>
+</header>
+<section id="quiz-editor" class="editor-section">
+
+    <button id="newQuestion" type="button">+ Nieuwe Vraag</button>
+    <button id="FinishMaking" type="button">Afronden</button>
+    <div id="quizCode" aria-live="polite" style="margin-top:12px;font-weight:700;color:#0b5fff"></div>
+</section>
+        
+<footer>
+    <div class="container">
+        <p>Door katoet.
+            &copy; 2025. Alle rechten  voorbehouden </p>
+    </div>
+</footer>
+</body>
+</html>
+
+<style> 
+
+body {
+font-family: var(Comics-Regular, sans-serif);
+line-height: 1.6;
+color: var(--text-color);
+background-color: var(--background-color);
+}
+.container {
+max-width: var(--max-width);
+margin: 0 auto;
+padding: 0 20px;
+}
+/* 2. Header & Navigatie */.main-header {
+background-color: var(--white);
+padding: 15px 0;
+border-bottom: 1px solid var(--light-grey);
+}
+.main-header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.main-header h1 {
+font-size: 1.8rem;
+color: var(--primary-color);
+}
+.main-nav a {
+text-decoration: none;
+color: var(--text-color);
+margin-left: 20px;
+font-weight: 500;
+transition: color 0.3s;
+}
+.main-nav a:hover {
+color: var(--primary-color);
+}
+/* 3. Hoofdinhoud: Hero Sectie */.hero {
+text-align: center;
+padding: 80px 0;
+background-color: var(--white);
+margin-bottom: 30px;
+}
+.hero h2 {
+font-size: 2.5rem;
+margin-bottom: 15px;
+font-weight: 700;
+}
+.hero p {
+font-size: 1.2rem;
+margin-bottom: 30px;
+}
+/* 4. Quiz Editor Sectie (Het hart van de site) */.editor-section {
+padding: 30px 0 60px;
+}
+.editor-section h3 {
+font-size: 1.8rem;
+margin-bottom: 20px;
+border-bottom: 2px solid var(--primary-color);
+display: inline-block;
+padding-bottom: 5px;
+}
+.quiz-question-block {
+background-color: var(--white);
+padding: 25px;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Subtiele schaduw */margin-bottom: 25px;
+border-left: 5px solid var(--primary-color); /* Visuele nadruk */}
+/* 5. Vormgeving van Formuliervelden & Labels */label {
+display: block;
+font-weight: 700;
+margin-top: 15px;
+margin-bottom: 5px;
+}
+input[type="text"] {
+padding: 12px;
+margin-bottom: 10px;
+border: 1px solid var(--light-grey);
+border-radius: 4px;
+font-size: 1rem;
+transition: border-color 0.3s, box-shadow 0.3s;
+width: calc(50% - 10px); /* 2 kolommen */display: inline-block;
+margin-right: 10px;
+}
+input[type="text"]:focus {
+border-color: var(--primary-color);
+outline: none;
+box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* 6. Buttons (Call-to-Action) */.primary-button,.secondary-button,.cta-button {
+display: inline-block;
+padding: 12px 25px;
+border-radius: 4px;
+font-weight: 700;
+text-decoration: none;
+cursor: pointer;
+border: none;
+transition: background-color 0.3s, opacity 0.3s;
+text-align: center;
+}
+.primary-button, .generate-quiz-btn, .cta-button {
+background-color: var(--primary-color);
+color: var(--white);
+margin-right: 15px;
+}
+
+.primary-button:hover, .generate-quiz-btn:hover, .cta-button:hover {
+background-color: #2563EB; /* Een donkerder blauw */
+}
+
+.secondary-button, .add-question-btn {
+background-color: var(--light-grey);
+color: var(--text-color);
+}
+
+.secondary-button:hover, .add-question-btn:hover {
+background-color: #D1D5DB;
+}
+
+/* 7. Footer */footer {
+text-align: center;
+padding: 20px 0;
+border-top: 1px solid var(--light-grey);
+color: #6B7280;
+font-size: 0.9rem;
+}
+</style>

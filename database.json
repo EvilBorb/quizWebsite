@@ -1,0 +1,273 @@
+{
+    "allQuizes": {
+        "quiz code": {
+            "name": "Template Quiz!",
+            "AllQuestions": [
+                {
+                    "question": "Wat is dit?",
+                    "correct": [
+                        "Een voorbeeld van een multiplechoice vraag"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "een open vraag",
+                        "Een voorbeeld van een multiplechoice vraag",
+                        "iets?"
+                    ]
+                },
+                {
+                    "question": "Vul in: De zon schijnt, de lucht is _______",
+                    "correct": [
+                        "BLAUW"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "ROOD",
+                        "BLAUW",
+                        "GEEL",
+                        "GROEN",
+                        "PAARS"
+                    ]
+                },
+                {
+                    "question": "De 'Code' van het web is:",
+                    "correct": [
+                        "JavaScript"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "JavaScript",
+                        "Lua",
+                        "Python",
+                        "CSS",
+                        "Java",
+                        "C++"
+                    ]
+                },
+                {
+                    "question": "Wat zijn de eerste 4 getallen van Pi?",
+                    "correct": [
+                        "3.141"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "3.141",
+                        "3.142",
+                        "3.143",
+                        "3.140"
+                    ]
+                },
+                {
+                    "question": "Wat is Pi? Rond af op 3 decimalen.",
+                    "correct": [
+                        "3.142"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "3.141",
+                        "3.142",
+                        "3.143",
+                        "3.140"
+                    ]
+                },
+                {
+                    "question": "Wat is mol?",
+                    "correct": [
+                        "6,02214076 x 10^23"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "6,02214076 x 10^23",
+                        "6,02214078 x 10^23",
+                        "6,02114076 x 10^23",
+                        "6,02214176 x 10^23"
+                    ]
+                },
+                {
+                    "question": "Justin kijkt op de klok en ziet dat het 20:00 is. 9 uur geleden was het nog 17:00. Hoe kan dit?",
+                    "correct": [
+                        "Hij is gevlogen naar een andere tijdzone"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "Hij is gevlogen naar een andere tijdzone",
+                        "Hij keek de eerst keer op een klok die stil stond",
+                        "Hij is schizofreen",
+                        "Het kan niet",
+                        "Tijd is een illusie",
+                        "De wereld is raar"
+                    ]
+                }
+            ],
+            "Leaderboard": {
+                "iemand": 3,
+                "test_user": 42
+            }
+        },
+        "dTVFJj84JE": {
+            "name": "untitled",
+            "AllQuestions": [
+                {
+                    "question": "Ik ben een mens en ik heb de javascript code geschreven. Wie ben ik?",
+                    "correct": [
+                        "Amy"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "Amy",
+                        "Weet ik veel...",
+                        "Joseph",
+                        "Storm",
+                        "Dante",
+                        "Esad"
+                    ]
+                }
+            ],
+            "Leaderboard": {}
+        },
+        "FagkVWgvnF": {
+            "name": "untitled",
+            "AllQuestions": [
+                {
+                    "question": "Natuurkunde is:",
+                    "correct": [
+                        "Stom",
+                        "Saai"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "Stom",
+                        "Saai",
+                        "Leuk",
+                        "Nutteloos",
+                        "Idioot",
+                        "Onlogisch",
+                        "Uhhh... Hoe zou ik dit moeten weten???"
+                    ]
+                },
+                {
+                    "question": "Het leven is:",
+                    "correct": [
+                        "Zwaar",
+                        "Oneerlijk"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "Zwaar",
+                        "Oneerlijk",
+                        "Eerlijk",
+                        "Makkelijk"
+                    ]
+                },
+                {
+                    "question": "Wie is hier de baas?",
+                    "correct": [
+                        "De schildpad of de haas?"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "De schildpad of de haas?",
+                        "Ik",
+                        "De server",
+                        "Mijn laptop"
+                    ]
+                }
+            ],
+            "Leaderboard": {}
+        },
+        "TZQS6ktCwZ": {
+            "name": "untitled",
+            "AllQuestions": [
+                {
+                    "question": "De hoofdstad van Gelderland is niet:",
+                    "correct": [
+                        "Nijmegen",
+                        "Schiedam",
+                        "Enschede"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "Arnhem",
+                        "Nijmegen",
+                        "Schiedam",
+                        "Enschede"
+                    ]
+                },
+                {
+                    "question": "a^2 + b^2 =",
+                    "correct": [
+                        "c^2"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "c^2",
+                        "De stelling van pytagoras",
+                        "Het leven"
+                    ]
+                },
+                {
+                    "question": "De wereld is niet:",
+                    "correct": [
+                        "PLAT",
+                        "EEN PIZZA",
+                        "EEN WATERMELOEN"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "PLAT",
+                        "ROND",
+                        "EEN PIZZA",
+                        "EEN WATERMELOEN"
+                    ]
+                },
+                {
+                    "question": "Coca cola is begonnen als:",
+                    "correct": [
+                        "Medicijn"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "Medicijn",
+                        "Hard drugs",
+                        "Frisdrank",
+                        "Mislukte soep",
+                        "Mislukt eten"
+                    ]
+                },
+                {
+                    "question": "De namen van de 2 atoombommen die op japan zijn gedropt zijn:",
+                    "correct": [
+                        "Little boy en fat man"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "Little boy en fat man",
+                        "Big boy en little man",
+                        "ncrs67302 en ncrs67303"
+                    ]
+                }
+            ],
+            "Leaderboard": {}
+        },
+        "HBKBtIUaBD": {
+            "name": "untitled",
+            "AllQuestions": [
+                {
+                    "question": "Wat is NIET waar?",
+                    "correct": [
+                        "Een astronomisch jaar is precies 365 dagen"
+                    ],
+                    "type": "multipleChoice",
+                    "allanswers": [
+                        "De aarde is plat",
+                        "De kaart van de aarde is plat",
+                        "De aarde draait om de zon heen.",
+                        "Een astronomisch jaar is precies 365 dagen",
+                        "Pluto is een dwergplaneet."
+                    ]
+                }
+            ],
+            "Leaderboard": {}
+        }
+    }
+}
